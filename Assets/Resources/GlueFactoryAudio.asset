@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a227bff1a3ba424479662bf27e6f5648, type: 3}
+  m_Name: GlueFactoryAudio
+  m_EditorClassIdentifier: Assembly-CSharp::GlueFactoryAudioConfig
+  masterVolume: 1
+  sfxVolume: 1
+  musicVolume: 0.58
+  enableSounds: 1
+  backgroundMusic: {fileID: 8300000, guid: 829d4fd3da2813f4d821b6985657c69a, type: 3}
+  playMusicOnStart: 1
+  loopMusic: 1
+  sfxSourcePoolSize: 8
+  sounds:
+  - id: ui_click
+    clip: {fileID: 8300000, guid: 94f8eb84426725c4cbaf69c9d73cdf49, type: 3}
+    volume: 0.325
+    pitchRange: {x: 1, y: 1}
+    cooldownSeconds: 0
+  - id: tab_switch
+    clip: {fileID: 8300000, guid: 94f8eb84426725c4cbaf69c9d73cdf49, type: 3}
+    volume: 0.325
+    pitchRange: {x: 1, y: 1}
+    cooldownSeconds: 0
+  - id: manual_produce
+    clip: {fileID: 8300000, guid: bb6b7088a1212d744ab1d7555b26577e, type: 3}
+    volume: 0.55
+    pitchRange: {x: 1, y: 1}
+    cooldownSeconds: 0
+  - id: auto_produce
+    clip: {fileID: 8300000, guid: bb6b7088a1212d744ab1d7555b26577e, type: 3}
+    volume: 0.28
+    pitchRange: {x: 1, y: 1}
+    cooldownSeconds: 0
+  - id: upgrade
+    clip: {fileID: 8300000, guid: a011d0d6e27b490479bdcadca8a2ff2b, type: 3}
+    volume: 0.7
+    pitchRange: {x: 1, y: 1}
+    cooldownSeconds: 0
+  - id: machine_install
+    clip: {fileID: 8300000, guid: a011d0d6e27b490479bdcadca8a2ff2b, type: 3}
+    volume: 0.7
+    pitchRange: {x: 1, y: 1}
+    cooldownSeconds: 0
+  - id: save
+    clip: {fileID: 8300000, guid: c2e642f1f56de6b44835d0eea4d5d96c, type: 3}
+    volume: 0.55
+    pitchRange: {x: 1, y: 1}
+    cooldownSeconds: 0
+  - id: reset
+    clip: {fileID: 8300000, guid: ae90e048e0eb4b7459c012f3a751e6f8, type: 3}
+    volume: 0.8
+    pitchRange: {x: 1, y: 1}
+    cooldownSeconds: 0
+  - id: warning
+    clip: {fileID: 8300000, guid: ae90e048e0eb4b7459c012f3a751e6f8, type: 3}
+    volume: 0.55
+    pitchRange: {x: 1, y: 1}
+    cooldownSeconds: 0
+  - id: error
+    clip: {fileID: 8300000, guid: ae90e048e0eb4b7459c012f3a751e6f8, type: 3}
+    volume: 0.7
+    pitchRange: {x: 1, y: 1}
+    cooldownSeconds: 0

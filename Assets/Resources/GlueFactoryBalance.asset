@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd9c3c5b7356524bb3acb91c2b5860c, type: 3}
+  m_Name: GlueFactoryBalance
+  m_EditorClassIdentifier: Assembly-CSharp::GlueFactoryBalanceConfig
+  maxSlots: 3
+  baseMachineIntervalSeconds: 5
+  minimumMachineIntervalSeconds: 1
+  machineIntervalStepSeconds: 1
+  autoSaveIntervalSeconds: 600
+  machineSellRefundRate: 0.4
+  factoryBoostPerLevel: 0.02
+  clickValueUpgrade:
+    maxLevel: 999
+    baseCost: 50
+    growth: 1.7
+  conveyorUpgrade:
+    maxLevel: 2
+    baseCost: 1200
+    growth: 10
+  factoryBoostUpgrade:
+    maxLevel: 5
+    baseCost: 500
+    growth: 2.2
+  speedUpgrade:
+    maxLevel: 4
+    baseCost: 1000
+    growth: 2
+  machines:
+  - id: glue_stick
+    displayName: Glue Stick
+    pieceValue: 1
+    machineCost: 25
+    icon: {fileID: 0}
+  - id: white_glue
+    displayName: White Glue (PVA)
+    pieceValue: 2
+    machineCost: 100
+    icon: {fileID: 0}
+  - id: wood_glue
+    displayName: Wood Glue
+    pieceValue: 5
+    machineCost: 1000
+    icon: {fileID: 0}
+  - id: super_glue
+    displayName: Super Glue
+    pieceValue: 15
+    machineCost: 2500
+    icon: {fileID: 0}
+  - id: plastic_resin
+    displayName: Plastic Resin Glue
+    pieceValue: 35
+    machineCost: 7500
+    icon: {fileID: 0}
+  - id: e6000
+    displayName: E6000 Glue
+    pieceValue: 50
+    machineCost: 10000
+    icon: {fileID: 0}
+  - id: polyurethane
+    displayName: Polyurethane Glue
+    pieceValue: 100
+    machineCost: 50000
+    icon: {fileID: 0}
+  - id: construction
+    displayName: Construction Glue
+    pieceValue: 200
+    machineCost: 100000
+    icon: {fileID: 0}
+  - id: epoxy
+    displayName: Epoxy Glue
+    pieceValue: 400
+    machineCost: 250000
+    icon: {fileID: 0}
+  - id: aerospace
+    displayName: Aerospace Glue
+    pieceValue: 600
+    machineCost: 500000
+    icon: {fileID: 0}
+  - id: epoxy_bucket
+    displayName: Epoxy Resin Glue Bucket
+    pieceValue: 2500
+    machineCost: 1000000
+    icon: {fileID: 0}
+  - id: edible
+    displayName: Edible Multi-Purpose Glue
+    pieceValue: 3500
+    machineCost: 10000000
+    icon: {fileID: 0}
+  - id: military
+    displayName: Military Defense-Certified Space Glue
+    pieceValue: 5000
+    machineCost: 20000000
+    icon: {fileID: 0}
+  - id: space
+    displayName: Space Glue
+    pieceValue: 75000
+    machineCost: 150000000
+    icon: {fileID: 0}
+  - id: holy
+    displayName: Holy Glue
+    pieceValue: 150000
+    machineCost: 1000000000
+    icon: {fileID: 0}
